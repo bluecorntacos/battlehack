@@ -19,6 +19,9 @@
 		B080BC7E1A7CF06A00D889E0 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080BC791A7CF06A00D889E0 /* ParseCrashReporting.framework */; };
 		B080BC7F1A7CF06A00D889E0 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080BC7A1A7CF06A00D889E0 /* ParseFacebookUtils.framework */; };
 		B080BC801A7CF06A00D889E0 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080BC7B1A7CF06A00D889E0 /* ParseUI.framework */; };
+		B080BC851A7CF1E900D889E0 /* SOS-Logo-FINAL.ai in Resources */ = {isa = PBXBuildFile; fileRef = B080BC821A7CF1E900D889E0 /* SOS-Logo-FINAL.ai */; };
+		B080BC861A7CF1E900D889E0 /* SOS-Logo-FINAL.png in Resources */ = {isa = PBXBuildFile; fileRef = B080BC831A7CF1E900D889E0 /* SOS-Logo-FINAL.png */; };
+		B080BC871A7CF1E900D889E0 /* SOS-Logo.ai in Resources */ = {isa = PBXBuildFile; fileRef = B080BC841A7CF1E900D889E0 /* SOS-Logo.ai */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		B080BC791A7CF06A00D889E0 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
 		B080BC7A1A7CF06A00D889E0 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		B080BC7B1A7CF06A00D889E0 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		B080BC821A7CF1E900D889E0 /* SOS-Logo-FINAL.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SOS-Logo-FINAL.ai"; sourceTree = "<group>"; };
+		B080BC831A7CF1E900D889E0 /* SOS-Logo-FINAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOS-Logo-FINAL.png"; sourceTree = "<group>"; };
+		B080BC841A7CF1E900D889E0 /* SOS-Logo.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SOS-Logo.ai"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 		B080BC511A7CF05A00D889E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B080BC811A7CF1E900D889E0 /* logo */,
 				B080BC521A7CF05A00D889E0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -141,6 +148,16 @@
 				B080BC7B1A7CF06A00D889E0 /* ParseUI.framework */,
 			);
 			path = "parse-library-1.6.2";
+			sourceTree = "<group>";
+		};
+		B080BC811A7CF1E900D889E0 /* logo */ = {
+			isa = PBXGroup;
+			children = (
+				B080BC821A7CF1E900D889E0 /* SOS-Logo-FINAL.ai */,
+				B080BC831A7CF1E900D889E0 /* SOS-Logo-FINAL.png */,
+				B080BC841A7CF1E900D889E0 /* SOS-Logo.ai */,
+			);
+			path = logo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +242,10 @@
 			files = (
 				B080BC5C1A7CF05A00D889E0 /* Main.storyboard in Resources */,
 				B080BC611A7CF05A00D889E0 /* LaunchScreen.xib in Resources */,
+				B080BC871A7CF1E900D889E0 /* SOS-Logo.ai in Resources */,
 				B080BC5E1A7CF05A00D889E0 /* Images.xcassets in Resources */,
+				B080BC861A7CF1E900D889E0 /* SOS-Logo-FINAL.png in Resources */,
+				B080BC851A7CF1E900D889E0 /* SOS-Logo-FINAL.ai in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
