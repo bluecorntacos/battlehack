@@ -7,65 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B080BC101A7CE91F00D889E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B080BC0F1A7CE91F00D889E0 /* AppDelegate.swift */; };
-		B080BC131A7CE91F00D889E0 /* SOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B080BC111A7CE91F00D889E0 /* SOS.xcdatamodeld */; };
-		B080BC151A7CE91F00D889E0 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B080BC141A7CE91F00D889E0 /* MasterViewController.swift */; };
-		B080BC171A7CE91F00D889E0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B080BC161A7CE91F00D889E0 /* DetailViewController.swift */; };
-		B080BC1A1A7CE91F00D889E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B080BC181A7CE91F00D889E0 /* Main.storyboard */; };
-		B080BC1C1A7CE91F00D889E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B080BC1B1A7CE91F00D889E0 /* Images.xcassets */; };
-		B080BC1F1A7CE91F00D889E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B080BC1D1A7CE91F00D889E0 /* LaunchScreen.xib */; };
-		B080BC2B1A7CE91F00D889E0 /* SOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B080BC2A1A7CE91F00D889E0 /* SOSTests.swift */; };
-		B080BC391A7CE93C00D889E0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080BC341A7CE93C00D889E0 /* Bolts.framework */; };
-		B080BC3A1A7CE93C00D889E0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080BC351A7CE93C00D889E0 /* Parse.framework */; };
-		B080BC3B1A7CE93C00D889E0 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080BC361A7CE93C00D889E0 /* ParseCrashReporting.framework */; };
-		B080BC3C1A7CE93C00D889E0 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080BC371A7CE93C00D889E0 /* ParseUI.framework */; };
-		B080BC3D1A7CE93C00D889E0 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080BC381A7CE93C00D889E0 /* ParseFacebookUtils.framework */; };
+		B080BC541A7CF05A00D889E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B080BC531A7CF05A00D889E0 /* AppDelegate.swift */; };
+		B080BC571A7CF05A00D889E0 /* SOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B080BC551A7CF05A00D889E0 /* SOS.xcdatamodeld */; };
+		B080BC591A7CF05A00D889E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B080BC581A7CF05A00D889E0 /* ViewController.swift */; };
+		B080BC5C1A7CF05A00D889E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B080BC5A1A7CF05A00D889E0 /* Main.storyboard */; };
+		B080BC5E1A7CF05A00D889E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B080BC5D1A7CF05A00D889E0 /* Images.xcassets */; };
+		B080BC611A7CF05A00D889E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B080BC5F1A7CF05A00D889E0 /* LaunchScreen.xib */; };
+		B080BC6D1A7CF05A00D889E0 /* SOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B080BC6C1A7CF05A00D889E0 /* SOSTests.swift */; };
+		B080BC7C1A7CF06A00D889E0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080BC771A7CF06A00D889E0 /* Bolts.framework */; };
+		B080BC7D1A7CF06A00D889E0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080BC781A7CF06A00D889E0 /* Parse.framework */; };
+		B080BC7E1A7CF06A00D889E0 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080BC791A7CF06A00D889E0 /* ParseCrashReporting.framework */; };
+		B080BC7F1A7CF06A00D889E0 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080BC7A1A7CF06A00D889E0 /* ParseFacebookUtils.framework */; };
+		B080BC801A7CF06A00D889E0 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B080BC7B1A7CF06A00D889E0 /* ParseUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B080BC251A7CE91F00D889E0 /* PBXContainerItemProxy */ = {
+		B080BC671A7CF05A00D889E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B080BC021A7CE91E00D889E0 /* Project object */;
+			containerPortal = B080BC461A7CF05A00D889E0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B080BC091A7CE91F00D889E0;
+			remoteGlobalIDString = B080BC4D1A7CF05A00D889E0;
 			remoteInfo = SOS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B080BC0A1A7CE91F00D889E0 /* SOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B080BC0E1A7CE91F00D889E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B080BC0F1A7CE91F00D889E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B080BC121A7CE91F00D889E0 /* SOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SOS.xcdatamodel; sourceTree = "<group>"; };
-		B080BC141A7CE91F00D889E0 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		B080BC161A7CE91F00D889E0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		B080BC191A7CE91F00D889E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B080BC1B1A7CE91F00D889E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B080BC1E1A7CE91F00D889E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B080BC241A7CE91F00D889E0 /* SOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B080BC291A7CE91F00D889E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B080BC2A1A7CE91F00D889E0 /* SOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSTests.swift; sourceTree = "<group>"; };
-		B080BC341A7CE93C00D889E0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		B080BC351A7CE93C00D889E0 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		B080BC361A7CE93C00D889E0 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
-		B080BC371A7CE93C00D889E0 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
-		B080BC381A7CE93C00D889E0 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		B080BC4E1A7CF05A00D889E0 /* SOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B080BC521A7CF05A00D889E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B080BC531A7CF05A00D889E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B080BC561A7CF05A00D889E0 /* SOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SOS.xcdatamodel; sourceTree = "<group>"; };
+		B080BC581A7CF05A00D889E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B080BC5B1A7CF05A00D889E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B080BC5D1A7CF05A00D889E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B080BC601A7CF05A00D889E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B080BC661A7CF05A00D889E0 /* SOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B080BC6B1A7CF05A00D889E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B080BC6C1A7CF05A00D889E0 /* SOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSTests.swift; sourceTree = "<group>"; };
+		B080BC771A7CF06A00D889E0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		B080BC781A7CF06A00D889E0 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		B080BC791A7CF06A00D889E0 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		B080BC7A1A7CF06A00D889E0 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		B080BC7B1A7CF06A00D889E0 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B080BC071A7CE91F00D889E0 /* Frameworks */ = {
+		B080BC4B1A7CF05A00D889E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B080BC3A1A7CE93C00D889E0 /* Parse.framework in Frameworks */,
-				B080BC3B1A7CE93C00D889E0 /* ParseCrashReporting.framework in Frameworks */,
-				B080BC3C1A7CE93C00D889E0 /* ParseUI.framework in Frameworks */,
-				B080BC3D1A7CE93C00D889E0 /* ParseFacebookUtils.framework in Frameworks */,
-				B080BC391A7CE93C00D889E0 /* Bolts.framework in Frameworks */,
+				B080BC7D1A7CF06A00D889E0 /* Parse.framework in Frameworks */,
+				B080BC7E1A7CF06A00D889E0 /* ParseCrashReporting.framework in Frameworks */,
+				B080BC801A7CF06A00D889E0 /* ParseUI.framework in Frameworks */,
+				B080BC7F1A7CF06A00D889E0 /* ParseFacebookUtils.framework in Frameworks */,
+				B080BC7C1A7CF06A00D889E0 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B080BC211A7CE91F00D889E0 /* Frameworks */ = {
+		B080BC631A7CF05A00D889E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,79 +73,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B080BC011A7CE91E00D889E0 = {
+		B080BC451A7CF05A00D889E0 = {
 			isa = PBXGroup;
 			children = (
-				B080BC0C1A7CE91F00D889E0 /* SOS */,
-				B080BC271A7CE91F00D889E0 /* SOSTests */,
-				B080BC0B1A7CE91F00D889E0 /* Products */,
-				B080BC341A7CE93C00D889E0 /* Bolts.framework */,
-				B080BC351A7CE93C00D889E0 /* Parse.framework */,
-				B080BC361A7CE93C00D889E0 /* ParseCrashReporting.framework */,
-				B080BC371A7CE93C00D889E0 /* ParseUI.framework */,
-				B080BC381A7CE93C00D889E0 /* ParseFacebookUtils.framework */,
+				B080BC501A7CF05A00D889E0 /* SOS */,
+				B080BC691A7CF05A00D889E0 /* SOSTests */,
+				B080BC4F1A7CF05A00D889E0 /* Products */,
+				B080BC761A7CF06A00D889E0 /* parse-library-1.6.2 */,
 			);
 			sourceTree = "<group>";
 		};
-		B080BC0B1A7CE91F00D889E0 /* Products */ = {
+		B080BC4F1A7CF05A00D889E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B080BC0A1A7CE91F00D889E0 /* SOS.app */,
-				B080BC241A7CE91F00D889E0 /* SOSTests.xctest */,
+				B080BC4E1A7CF05A00D889E0 /* SOS.app */,
+				B080BC661A7CF05A00D889E0 /* SOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B080BC0C1A7CE91F00D889E0 /* SOS */ = {
+		B080BC501A7CF05A00D889E0 /* SOS */ = {
 			isa = PBXGroup;
 			children = (
-				B080BC0F1A7CE91F00D889E0 /* AppDelegate.swift */,
-				B080BC141A7CE91F00D889E0 /* MasterViewController.swift */,
-				B080BC161A7CE91F00D889E0 /* DetailViewController.swift */,
-				B080BC181A7CE91F00D889E0 /* Main.storyboard */,
-				B080BC1B1A7CE91F00D889E0 /* Images.xcassets */,
-				B080BC1D1A7CE91F00D889E0 /* LaunchScreen.xib */,
-				B080BC111A7CE91F00D889E0 /* SOS.xcdatamodeld */,
-				B080BC0D1A7CE91F00D889E0 /* Supporting Files */,
+				B080BC531A7CF05A00D889E0 /* AppDelegate.swift */,
+				B080BC581A7CF05A00D889E0 /* ViewController.swift */,
+				B080BC5A1A7CF05A00D889E0 /* Main.storyboard */,
+				B080BC5D1A7CF05A00D889E0 /* Images.xcassets */,
+				B080BC5F1A7CF05A00D889E0 /* LaunchScreen.xib */,
+				B080BC551A7CF05A00D889E0 /* SOS.xcdatamodeld */,
+				B080BC511A7CF05A00D889E0 /* Supporting Files */,
 			);
 			path = SOS;
 			sourceTree = "<group>";
 		};
-		B080BC0D1A7CE91F00D889E0 /* Supporting Files */ = {
+		B080BC511A7CF05A00D889E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B080BC0E1A7CE91F00D889E0 /* Info.plist */,
+				B080BC521A7CF05A00D889E0 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B080BC271A7CE91F00D889E0 /* SOSTests */ = {
+		B080BC691A7CF05A00D889E0 /* SOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				B080BC2A1A7CE91F00D889E0 /* SOSTests.swift */,
-				B080BC281A7CE91F00D889E0 /* Supporting Files */,
+				B080BC6C1A7CF05A00D889E0 /* SOSTests.swift */,
+				B080BC6A1A7CF05A00D889E0 /* Supporting Files */,
 			);
 			path = SOSTests;
 			sourceTree = "<group>";
 		};
-		B080BC281A7CE91F00D889E0 /* Supporting Files */ = {
+		B080BC6A1A7CF05A00D889E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B080BC291A7CE91F00D889E0 /* Info.plist */,
+				B080BC6B1A7CF05A00D889E0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B080BC761A7CF06A00D889E0 /* parse-library-1.6.2 */ = {
+			isa = PBXGroup;
+			children = (
+				B080BC771A7CF06A00D889E0 /* Bolts.framework */,
+				B080BC781A7CF06A00D889E0 /* Parse.framework */,
+				B080BC791A7CF06A00D889E0 /* ParseCrashReporting.framework */,
+				B080BC7A1A7CF06A00D889E0 /* ParseFacebookUtils.framework */,
+				B080BC7B1A7CF06A00D889E0 /* ParseUI.framework */,
+			);
+			path = "parse-library-1.6.2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B080BC091A7CE91F00D889E0 /* SOS */ = {
+		B080BC4D1A7CF05A00D889E0 /* SOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B080BC2E1A7CE91F00D889E0 /* Build configuration list for PBXNativeTarget "SOS" */;
+			buildConfigurationList = B080BC701A7CF05A00D889E0 /* Build configuration list for PBXNativeTarget "SOS" */;
 			buildPhases = (
-				B080BC061A7CE91F00D889E0 /* Sources */,
-				B080BC071A7CE91F00D889E0 /* Frameworks */,
-				B080BC081A7CE91F00D889E0 /* Resources */,
+				B080BC4A1A7CF05A00D889E0 /* Sources */,
+				B080BC4B1A7CF05A00D889E0 /* Frameworks */,
+				B080BC4C1A7CF05A00D889E0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -155,46 +160,46 @@
 			);
 			name = SOS;
 			productName = SOS;
-			productReference = B080BC0A1A7CE91F00D889E0 /* SOS.app */;
+			productReference = B080BC4E1A7CF05A00D889E0 /* SOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B080BC231A7CE91F00D889E0 /* SOSTests */ = {
+		B080BC651A7CF05A00D889E0 /* SOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B080BC311A7CE91F00D889E0 /* Build configuration list for PBXNativeTarget "SOSTests" */;
+			buildConfigurationList = B080BC731A7CF05A00D889E0 /* Build configuration list for PBXNativeTarget "SOSTests" */;
 			buildPhases = (
-				B080BC201A7CE91F00D889E0 /* Sources */,
-				B080BC211A7CE91F00D889E0 /* Frameworks */,
-				B080BC221A7CE91F00D889E0 /* Resources */,
+				B080BC621A7CF05A00D889E0 /* Sources */,
+				B080BC631A7CF05A00D889E0 /* Frameworks */,
+				B080BC641A7CF05A00D889E0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B080BC261A7CE91F00D889E0 /* PBXTargetDependency */,
+				B080BC681A7CF05A00D889E0 /* PBXTargetDependency */,
 			);
 			name = SOSTests;
 			productName = SOSTests;
-			productReference = B080BC241A7CE91F00D889E0 /* SOSTests.xctest */;
+			productReference = B080BC661A7CF05A00D889E0 /* SOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B080BC021A7CE91E00D889E0 /* Project object */ = {
+		B080BC461A7CF05A00D889E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = bluecorntacos;
 				TargetAttributes = {
-					B080BC091A7CE91F00D889E0 = {
+					B080BC4D1A7CF05A00D889E0 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					B080BC231A7CE91F00D889E0 = {
+					B080BC651A7CF05A00D889E0 = {
 						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = B080BC091A7CE91F00D889E0;
+						TestTargetID = B080BC4D1A7CF05A00D889E0;
 					};
 				};
 			};
-			buildConfigurationList = B080BC051A7CE91E00D889E0 /* Build configuration list for PBXProject "SOS" */;
+			buildConfigurationList = B080BC491A7CF05A00D889E0 /* Build configuration list for PBXProject "SOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -202,29 +207,29 @@
 				en,
 				Base,
 			);
-			mainGroup = B080BC011A7CE91E00D889E0;
-			productRefGroup = B080BC0B1A7CE91F00D889E0 /* Products */;
+			mainGroup = B080BC451A7CF05A00D889E0;
+			productRefGroup = B080BC4F1A7CF05A00D889E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B080BC091A7CE91F00D889E0 /* SOS */,
-				B080BC231A7CE91F00D889E0 /* SOSTests */,
+				B080BC4D1A7CF05A00D889E0 /* SOS */,
+				B080BC651A7CF05A00D889E0 /* SOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B080BC081A7CE91F00D889E0 /* Resources */ = {
+		B080BC4C1A7CF05A00D889E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B080BC1A1A7CE91F00D889E0 /* Main.storyboard in Resources */,
-				B080BC1F1A7CE91F00D889E0 /* LaunchScreen.xib in Resources */,
-				B080BC1C1A7CE91F00D889E0 /* Images.xcassets in Resources */,
+				B080BC5C1A7CF05A00D889E0 /* Main.storyboard in Resources */,
+				B080BC611A7CF05A00D889E0 /* LaunchScreen.xib in Resources */,
+				B080BC5E1A7CF05A00D889E0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B080BC221A7CE91F00D889E0 /* Resources */ = {
+		B080BC641A7CF05A00D889E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,48 +239,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B080BC061A7CE91F00D889E0 /* Sources */ = {
+		B080BC4A1A7CF05A00D889E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B080BC101A7CE91F00D889E0 /* AppDelegate.swift in Sources */,
-				B080BC131A7CE91F00D889E0 /* SOS.xcdatamodeld in Sources */,
-				B080BC151A7CE91F00D889E0 /* MasterViewController.swift in Sources */,
-				B080BC171A7CE91F00D889E0 /* DetailViewController.swift in Sources */,
+				B080BC591A7CF05A00D889E0 /* ViewController.swift in Sources */,
+				B080BC541A7CF05A00D889E0 /* AppDelegate.swift in Sources */,
+				B080BC571A7CF05A00D889E0 /* SOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B080BC201A7CE91F00D889E0 /* Sources */ = {
+		B080BC621A7CF05A00D889E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B080BC2B1A7CE91F00D889E0 /* SOSTests.swift in Sources */,
+				B080BC6D1A7CF05A00D889E0 /* SOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B080BC261A7CE91F00D889E0 /* PBXTargetDependency */ = {
+		B080BC681A7CF05A00D889E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B080BC091A7CE91F00D889E0 /* SOS */;
-			targetProxy = B080BC251A7CE91F00D889E0 /* PBXContainerItemProxy */;
+			target = B080BC4D1A7CF05A00D889E0 /* SOS */;
+			targetProxy = B080BC671A7CF05A00D889E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B080BC181A7CE91F00D889E0 /* Main.storyboard */ = {
+		B080BC5A1A7CF05A00D889E0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B080BC191A7CE91F00D889E0 /* Base */,
+				B080BC5B1A7CF05A00D889E0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B080BC1D1A7CE91F00D889E0 /* LaunchScreen.xib */ = {
+		B080BC5F1A7CF05A00D889E0 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B080BC1E1A7CE91F00D889E0 /* Base */,
+				B080BC601A7CF05A00D889E0 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -283,7 +287,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B080BC2C1A7CE91F00D889E0 /* Debug */ = {
+		B080BC6E1A7CF05A00D889E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -326,7 +330,7 @@
 			};
 			name = Debug;
 		};
-		B080BC2D1A7CE91F00D889E0 /* Release */ = {
+		B080BC6F1A7CF05A00D889E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -362,13 +366,13 @@
 			};
 			name = Release;
 		};
-		B080BC2F1A7CE91F00D889E0 /* Debug */ = {
+		B080BC711A7CF05A00D889E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/parse-library-1.6.2",
 				);
 				INFOPLIST_FILE = SOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -376,13 +380,13 @@
 			};
 			name = Debug;
 		};
-		B080BC301A7CE91F00D889E0 /* Release */ = {
+		B080BC721A7CF05A00D889E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/parse-library-1.6.2",
 				);
 				INFOPLIST_FILE = SOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -390,7 +394,7 @@
 			};
 			name = Release;
 		};
-		B080BC321A7CE91F00D889E0 /* Debug */ = {
+		B080BC741A7CF05A00D889E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -409,7 +413,7 @@
 			};
 			name = Debug;
 		};
-		B080BC331A7CE91F00D889E0 /* Release */ = {
+		B080BC751A7CF05A00D889E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -427,45 +431,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B080BC051A7CE91E00D889E0 /* Build configuration list for PBXProject "SOS" */ = {
+		B080BC491A7CF05A00D889E0 /* Build configuration list for PBXProject "SOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B080BC2C1A7CE91F00D889E0 /* Debug */,
-				B080BC2D1A7CE91F00D889E0 /* Release */,
+				B080BC6E1A7CF05A00D889E0 /* Debug */,
+				B080BC6F1A7CF05A00D889E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B080BC2E1A7CE91F00D889E0 /* Build configuration list for PBXNativeTarget "SOS" */ = {
+		B080BC701A7CF05A00D889E0 /* Build configuration list for PBXNativeTarget "SOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B080BC2F1A7CE91F00D889E0 /* Debug */,
-				B080BC301A7CE91F00D889E0 /* Release */,
+				B080BC711A7CF05A00D889E0 /* Debug */,
+				B080BC721A7CF05A00D889E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		B080BC311A7CE91F00D889E0 /* Build configuration list for PBXNativeTarget "SOSTests" */ = {
+		B080BC731A7CF05A00D889E0 /* Build configuration list for PBXNativeTarget "SOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B080BC321A7CE91F00D889E0 /* Debug */,
-				B080BC331A7CE91F00D889E0 /* Release */,
+				B080BC741A7CF05A00D889E0 /* Debug */,
+				B080BC751A7CF05A00D889E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B080BC111A7CE91F00D889E0 /* SOS.xcdatamodeld */ = {
+		B080BC551A7CF05A00D889E0 /* SOS.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B080BC121A7CE91F00D889E0 /* SOS.xcdatamodel */,
+				B080BC561A7CF05A00D889E0 /* SOS.xcdatamodel */,
 			);
-			currentVersion = B080BC121A7CE91F00D889E0 /* SOS.xcdatamodel */;
+			currentVersion = B080BC561A7CF05A00D889E0 /* SOS.xcdatamodel */;
 			path = SOS.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = B080BC021A7CE91E00D889E0 /* Project object */;
+	rootObject = B080BC461A7CF05A00D889E0 /* Project object */;
 }

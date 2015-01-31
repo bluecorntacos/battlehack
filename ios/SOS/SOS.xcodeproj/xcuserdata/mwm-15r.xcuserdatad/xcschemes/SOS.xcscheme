@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B080BC091A7CE91F00D889E0"
+               BlueprintIdentifier = "B080BC4D1A7CF05A00D889E0"
                BuildableName = "SOS.app"
                BlueprintName = "SOS"
                ReferencedContainer = "container:SOS.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B080BC231A7CE91F00D889E0"
+               BlueprintIdentifier = "B080BC651A7CF05A00D889E0"
                BuildableName = "SOSTests.xctest"
                BlueprintName = "SOSTests"
                ReferencedContainer = "container:SOS.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B080BC231A7CE91F00D889E0"
+               BlueprintIdentifier = "B080BC651A7CF05A00D889E0"
                BuildableName = "SOSTests.xctest"
                BlueprintName = "SOSTests"
                ReferencedContainer = "container:SOS.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B080BC091A7CE91F00D889E0"
+            BlueprintIdentifier = "B080BC4D1A7CF05A00D889E0"
             BuildableName = "SOS.app"
             BlueprintName = "SOS"
             ReferencedContainer = "container:SOS.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B080BC091A7CE91F00D889E0"
+            BlueprintIdentifier = "B080BC4D1A7CF05A00D889E0"
             BuildableName = "SOS.app"
             BlueprintName = "SOS"
             ReferencedContainer = "container:SOS.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B080BC091A7CE91F00D889E0"
+            BlueprintIdentifier = "B080BC4D1A7CF05A00D889E0"
             BuildableName = "SOS.app"
             BlueprintName = "SOS"
             ReferencedContainer = "container:SOS.xcodeproj">
