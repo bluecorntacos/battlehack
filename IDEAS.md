@@ -23,8 +23,14 @@ ETSA location markers
 - Referrals to people who offer First Aid Courses
 - Honour system (app blacklist)
 - GPS
+- Flashing blue and red for emergency app
+- Updated message feed about current status of user
+- Users are rewarded if they act as a beacon
+- You can donate to the app
 
 ** REQUIREMENTS
 - Responsive Web App
-- Google Maps API
+- Google Maps API/Open source maps
 - Paypal API
+- Just Giving API
+- Open data - etsa government
